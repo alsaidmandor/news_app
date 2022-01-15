@@ -7,12 +7,9 @@ A new Flutter application.
 This project is a starting point for a Flutter application.
 
 some for screen
-- [screenshots](screenshots/Screenshot_20220115-172818.png)
-- [screenshots](screenshots/Screenshot_20220115-172828.png)
-- [screenshots](screenshots/Screenshot_20220115-172837.png)
-- [screenshots](screenshots/Screenshot_20220115-172849.png)
-- [screenshots](screenshots/Screenshot_20220115-172857.png)
-- [screenshots](screenshots/Screenshot_20220115-172908.png)
+![screenshots](screenshots/Screenshot_20220115-172818.png) ! [screenshots](screenshots/Screenshot_20220115-172828.png)
+! [screenshots](screenshots/Screenshot_20220115-172837.png) ! [screenshots](screenshots/Screenshot_20220115-172849.png)
+! [screenshots](screenshots/Screenshot_20220115-172857.png) ! [screenshots](screenshots/Screenshot_20220115-172908.png)
 
 screenshots/Screenshot_20220115-172818.png
 
