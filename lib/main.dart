@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:bloc/bloc.dart';
+import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -17,6 +20,11 @@ void main() async {
   // بيتأكد ان كل حاجه هنا في الميثود خلصت و بعدين يتفح الابلكيشن
   WidgetsFlutterBinding.ensureInitialized();
 
+// set minimum width and height on app
+  if (Platform.isWindows)
+    await DesktopWindow.setMinWindowSize(
+      Size(650.0, 650.0),
+    );
   Bloc.observer = MyBlocObserver();
 
   DioHelper.init();
